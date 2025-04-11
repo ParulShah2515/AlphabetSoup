@@ -16,5 +16,6 @@ def count_pennymac_occurrences(letters):
         occurrences = min(occurrences, available_count // required_count)       
     return occurrences if occurrences != float('inf') else 0 
 # sample data: 
-alphabet_soup = "PPENNYNYMACMAC" 
-print(count_pennymac_occurrences(alphabet_soup))
+alphabet_soup = "PPENNYNYMACMAC"
+print(f"Input from Bowl: '{alphabet_soup}' -> Can spell PENNYMAC {count_pennymac_occurrences(alphabet_soup)} time(s)")
+
