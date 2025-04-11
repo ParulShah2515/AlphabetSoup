@@ -55,5 +55,4 @@ If Python is not installed, you can download and install it from the official Py
 ### Enhancements
 > [!IMPORTANT]
 > Instead of hardcoding the alphabet bowl value inside the Python script, we can modify the script to accept the input as a parameter at runtime using sys.argv, allowing the user to provide the input directly when executing the script.
-## License
-This script is open-source and available under the MIT License. Feel free to use and modify it for your own purposes.
+
